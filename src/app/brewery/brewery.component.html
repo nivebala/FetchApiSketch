@@ -1,0 +1,36 @@
+
+<table>
+    <tr>
+      <th>id</th>
+      <th>Name</th>
+      <th>Brewer Type</th>
+      <th>Address</th>
+      <th>city</th>
+      <th>state</th>
+      <th>County Province</th>
+      <th>Postal</th>
+      <th>Country</th>
+      <th>Longitude</th>
+      <th>Latitude</th>
+      <th>Phone</th>
+      <th>Website</th>
+    </tr>
+    <tr *ngFor="let brew of BreweryList">
+      <td>{{brew.id}}</td>
+      <td>{{brew.name}}</td>
+      <td>{{brew.brewery_type}}</td>
+      <td>{{brew.street}} </td>
+      <td>{{brew.city}}</td>
+      <td>{{brew.state}}</td>
+      <td>{{brew.county_province}}</td>
+      <td>{{brew.postal_code}}</td>
+      <td>{{brew.country}}</td>
+      <td>{{brew.longitude}}</td>
+      <td>{{brew.latitude}}</td>
+      <td>{{brew.phone}}</td>
+      <td>{{brew.website_url}}</td>
+     
+    </tr>
+    
+  </table>
+  
